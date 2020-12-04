@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Leschouca.create(adresse: "Résidence Choucas, Avenue Olympique, 73150 Val D'Isère",
+                  latitude: 45.4500, longitude: 6.9792)

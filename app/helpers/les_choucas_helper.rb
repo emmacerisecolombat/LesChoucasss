@@ -1,0 +1,2 @@
+module LesChoucasHelper
+end

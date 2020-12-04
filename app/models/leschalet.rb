@@ -1,0 +1,2 @@
+class Leschalet < ApplicationRecord
+end

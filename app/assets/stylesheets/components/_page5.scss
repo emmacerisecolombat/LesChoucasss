@@ -1,0 +1,86 @@
+#page5-1 {
+  position: relative;
+  z-index: 4;
+  top: 350px;
+}
+
+#page5-1 .text-presentation {
+  width: 40%;
+  margin-right: 0px !important;
+}
+
+#page5-1 .text-presentation strong {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 22px;
+}
+
+#shop-icon {
+  width: 125px;
+}
+
+#choucas-map {
+  position: relative;
+  bottom: 200px;
+  left: 100px;
+  width: 825px;
+  height: 550px;
+}
+
+#find-us {
+  position: relative;
+  bottom: 770px;
+  left: 70px;
+}
+
+#btns {
+  position: relative;
+  top: 130px;
+  right: 120px;
+}
+// FOOTER :
+// ---------------------------------------------------------------------
+// ---------------------------------------------------------------------
+#page5-3 {
+  position: relative;
+  z-index: 4;
+}
+
+.footer {
+  background: #9B9B9B;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+  padding: 0px 50px;
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
+
+#nav-footer {
+  position: relative;
+  bottom: 50px;
+  right: 10px;
+}
+
+#love-msg {
+  position: relative;
+  top: 100px;
+  left: 880px;
+}
+
+

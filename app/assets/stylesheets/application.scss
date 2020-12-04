@@ -1,1 +1,101 @@
 @import "bootstrap/scss/bootstrap";
+@import "components/index";
+@import 'mapbox-gl/dist/mapbox-gl';
+// body {
+// background-image:url("chalets.png");
+// background-repeat: no-repeat;
+// background-size: cover;
+// }
+
+#all {
+  position: relative;
+  z-index:3;
+  background-color: white;
+}
+
+#img {
+  position: absolute;
+  z-index:1;
+  background-color: red;
+  top: 12px;
+}
+
+.carousel-inner .carousel-item img{
+  min-height : 300px;
+  height : 700px;
+  width : 1150px;
+}
+
+#carousel-img {
+  position: relative;
+  left: 500px;
+}
+
+#text-carousel {
+  color: black;
+  position: relative;
+  bottom: 500px;
+  left:15
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 56px !important;
+  color: black;
+}
+
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px !important;
+  color: black;
+}
+
+h3 {
+  font-family: 'Antic Didone', serif;
+  font-size: 22px !important;
+  color: #9B9B9B;
+}
+
+h5 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px !important;
+  color: black;
+}
+
+h4 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 18px !important;
+  color: black;
+}
+
+a {
+  font-family: 'Yeseva One', cursive;
+  font-size: 25px !important;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: black !important;
+  font-weight: normal !important;
+}
+
+p {
+  font-family: 'Antic Didone', serif;
+  font-size: 22px !important;
+  color: black;
+}
+
+li {
+  font-family: 'Antic Didone', serif;
+  font-size: 22px !important;
+  color: black;
+}
+
+span {
+    font-family: 'Antic Didone', serif;
+  font-size: 22px !important;
+  color: black;
+}

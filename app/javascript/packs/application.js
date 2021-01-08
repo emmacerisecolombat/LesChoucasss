@@ -17,7 +17,8 @@ require("stylesheets/application.scss")
 // const imagePath = (name) => images(name, true)
 
 // import { mapBox } from '../plugins/init_mapbox';
+// import { carouselOwl } from '../plugins/carousel';
 
 // document.addEventListener('turbolinks:load', () => {
-//   mapBox();
-// })
+//   carouselOwl();
+//  })

@@ -17,10 +17,14 @@ body, html {
   background-color: white;
 }
 
-#img {
-  position: absolute;
-  z-index:1;
-  top: 115px;
+.container-c {
+  width: 1500px;
+  margin: auto;
+}
+
+#navnav {
+  max-width: 1240px;
+  margin: auto;
 }
 
 .carousel-inner .carousel-item img{

@@ -5,34 +5,40 @@
   <%= render "shared/home-page" %>
 </div>
 
-
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
 <!-- 2 : Présentation & Descriptif ! -->
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
+<div class="container-c">
 
-<div id="page2-A" class="ml-16 flex mb-36">
-  <%= render "shared/presentation" %>
-</div>
+  <div class="mt-12">
+    <div id="page2-A" class="flex pt-24">
+      <%= render "shared/presentation" %>
+    </div>
+  </div>
 
-<div id="page2-B" class="ml-16 mb-36">
-  <%= render "shared/descriptif" %>
-</div>
-
+  <div class="mt-12">
+    <div id="page2-B" class="">
+      <%= render "shared/descriptif" %>
+    </div>
+  </div>
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
 <!-- 3 : Equipements & Conciergerie ! -->
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
+  <div class="mt-12">
+    <div id="page3-D" class=" flex pt-24">
+      <%= render "shared/conciergerie" %>
+    </div>
+  </div>
 
-<div id="page3-C" class="ml-16 mb-24">
-  <%= render "shared/equipements" %>
-</div>
-
-<div id="page3-D" class="ml-16 flex mb-12 mt-32">
-  <%= render "shared/conciergerie" %>
-</div>
+  <div class="mt-12">
+    <div id="page3-C" class=" pt-24">
+      <%= render "shared/equipements" %>
+    </div>
+  </div>
 
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
@@ -40,74 +46,57 @@
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
 
-<div id="page4-1" class="mb-56">
-  <h2 id="title" class= "ml-16 mt-12 mb-16"> Galerie Photos </h2>
-  <%= render "shared/carousel-photos" %>
+  <div id="page4-1" class="pt-32">
+    <h2 id="title" class= "mb-16"> Galerie Photos </h2>
+    <div class="text-center">
+      <%= render "shared/carousel" %>
+    </div>
+  </div>
 </div>
-
-
-<div id="page4-2" class="flex mt-12">
-  <%= render "shared/modal-salon-carousel" %>
-  <%= render "shared/modal-balcony" %>
-  <%= render "shared/modal-chambre" %>
-  <%= render "shared/modal-salle-eau" %>
-  <%= render "shared/modal-vue-chambre" %>
-</div>
-<div id="page4-2" class="flex mt-12">
-  <%= render "shared/modal-salon" %>
-  <%= render "shared/modal-sejour" %>
-  <%= render "shared/modal-salle-manger" %>
-  <%= render "shared/modal-bar" %>
-  <%= render "shared/modal-kitchenbar" %>
-</div>
-
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
 <!-- 5 : Map, Infos et Contact ! -->
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
-<div id="page5">
-<div id="page5-1" class="mt-12 mb-56">
-  <div class="flex">
-    <div class="flex-auto">
-      <%= render "shared/situation-accès" %>
-    </div>
-    <div class="flex-auto">
-      <div id="choucas-map" class="border-4 border-black mt-8">
-        <%= image_tag "MapChoucas.png", alt: "alttext" %>
-      </div>
-      <h2 id="find-us" class="border-2 border-black w-40 text-center
-      rounded-full bg-white"> Carte </h2>
-    </div>
-  </div>
+<div class="container-c">
+  <div id="page5">
+          <div id="page5-1" class= "mb-14">
 
-<!-- ----------------------------------------------- -->
-  <div id="btns" class="">
-    <div class="">
-      <%= render "shared/btns-acces-1-2" %>
-    </div>
-    <div class="mt-12">
-      <%= render "shared/btns-acces-3-4" %>
-    </div>
-  </div>
+            <div class="flex pt-24">
+              <div class="flex-1">
+                <%= render "shared/situation-accès" %>
+              </div>
+              <div class="flex-1">
+                <div id="choucas-map" class="border-4 border-black mt-8">
+                  <%= image_tag "MapChoucas.png", alt: "alttext" %>
+                </div>
+              </div>
+            </div>
 </div>
 
-
-<!-- ----------------------------------------------- -->
-  <!--  -->
-
+<div class="container-c">
+            <div id="btns" class="">
+              <div class="flex justify-around">
+                <%= render "shared/btns-acces-1-2" %>
+              </div>
+              <div class="mt-12 flex justify-around">
+                <%= render "shared/btns-acces-3-4" %>
+              </div>
+            </div>
+          </div>
+  </div>
+</div>
 
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
 <!-- 6 : Footer ! -->
 <!-- ---------------------------------------------------------------- -->
 <!-- ---------------------------------------------------------------- -->
+  <div class="mt-24">
+    <%= render "shared/footer" %>
+  </div>
 
-<div id="page5-3" class="mt-56">
-  <%= render "shared/footer" %>
 </div>
-</div>
-
 
 
 

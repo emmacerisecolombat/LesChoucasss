@@ -1,56 +1,17 @@
-#page4-1 {
-  position: relative;
-  z-index: 4;
-  top: 500px;
-  right: 200px
+.carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+  width: 25%;
+  cursor: pointer;
+  float: left;
+}
+.item .thumb img {
+  width: 100%;
+  margin: 2px;
 }
 
-#title {
-  position: relative;
-  z-index: 4;
-  right: -200px
+.item img {
+  width: 100%;
 }
 
-#page4-2-btn .si{
-  position: relative;
-  z-index: 2;
-  top: 350px;
-}
-
-button {
-  outline: none;
-}
-
-#page4-2-btn .img {
-  width: 250px;
-  position: relative;
-  top: 350px;
-  right: 70px;
-}
-
-.modal-dialog {
-  width: 1000px;
-}
-
-.modal-backdrop {
-  position: relative;
-  /* bug fix - no overlay */
-  z-index: 4 !important;
-}
-
-#btn-close {
-  position: relative;
-  bottom: 125px;
-  border-radius: 25px;
-}
-
-#dialog-mo {
-  position: relative;
-  right: 5px;
-}
-
-#img-modal {
-  position: relative;
-  top: 10px;
-  border: 7px solid white;
-}

@@ -1,65 +1,84 @@
+<div class="flex ">
+ <div class="row justify-center">
+<!--       <div class="col-sm-6 my-auto text-left">
+        <h2 id="h2" >Products</h2>
+        <h3 id="h3" >Some product subhead</h3>
+        <p class="text-justify leading-loose mt-6" >Product description goes here.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 
- <div class="row">
-      <div class="col-sm-6 my-auto text-left">
-        <h2>Products</h2>
-        <h3>Some product subhead</h3>
-        <p>Product description goes here.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-        <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
-
-    </div> <!-- /col-sm-6 -->
+    </div> --> <!-- /col-sm-6 -->
     <div class="col-sm-6">
+
         <div id="carousel" class="carousel slide" data-ride="carousel">
+
+          <div id="titicarousel" class="carousel slide" data-interval="false">
             <div class="carousel-inner">
                 <div class="item active">
-                    <%= image_tag "salon-carousel.png", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "aaa.jpg", alt: "alttext", class: "d-block", id: "ll" %>
                 </div>
                 <div class="item">
-                    <%= image_tag "exterieur-choucas.jpg", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "ddd.jpg", alt: "alttext", class: "d-block", id: "aa" %>
                 </div>
                 <div class="item">
-                    <%= image_tag "Balcony.jpg", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "Descri.jpg", alt: "alttext", class: "d-block", id: "bb" %>
                 </div>
                 <div class="item">
-                    <%= image_tag "vue-chambre.png", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "Services.jpg", alt: "alttext", class: "d-block", id: "cc" %>
                 </div>
                 <div class="item">
-                    <%= image_tag "salle-de-eau.png", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "sss.jpg", alt: "alttext", class: "d-block", id: "dd" %>
                 </div>
                 <div class="item">
-                    <%= image_tag "chambre.png", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "lll.jpg", alt: "alttext", class: "d-block", id: "ee" %>
                 </div>
                 <div class="item">
-                    <%= image_tag "salon.png", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "ppp.jpg", alt: "alttext", class: "d-block", id: "ff" %>
                 </div>
                 <div class="item">
-                    <%= image_tag "sejour.png", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "ooo.jpg", alt: "alttext", class: "d-block", id: "gg" %>
                 </div>
                 <div class="item">
-                    <%= image_tag "bar.png", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "kkk.jpg", alt: "alttext", class: "d-block", id: "hh" %>
                 </div>
                 <div class="item">
-                    <%= image_tag "kitchen-bar.png", alt: "alttext", class: "d-block" %>
+                    <%= image_tag "jjj.jpg", alt: "alttext", class: "d-block", id: "ii" %>
+                </div>
+                <div class="item">
+                    <%= image_tag "ttt.jpg", alt: "alttext", class: "d-block", id: "jj" %>
+                </div>
+                <div class="item">
+                    <%= image_tag "vvv.jpg", alt: "alttext", class: "d-block", id: "kk" %>
                 </div>
             </div>
+            <a class="left carousel-control" href="#titicarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#titicarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+
         </div>
+
     <div class="clearfix">
         <div id="thumbcarousel" class="carousel slide" data-interval="false">
             <div class="carousel-inner">
                 <div class="item active">
-                    <div data-target="#carousel" data-slide-to="0" class="thumb"><%= image_tag "salon-carousel.png", alt: "alttext", class: "d-block" %></div>
-                    <div data-target="#carousel" data-slide-to="1" class="thumb"><%= image_tag "exterieur-choucas.jpg", alt: "alttext", class: "d-block" %></div>
-                    <div data-target="#carousel" data-slide-to="2" class="thumb"><%= image_tag "Balcony.jpg", alt: "alttext", class: "d-block" %></div>
-                    <div data-target="#carousel" data-slide-to="3" class="thumb"><%= image_tag "vue-chambre.png", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="0" class="thumb"><%= image_tag "aaa.jpg", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="1" class="thumb"><%= image_tag "ddd.jpg", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="2" class="thumb"><%= image_tag "Descri.jpg", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="3" class="thumb"><%= image_tag "Services.jpg", alt: "alttext", class: "d-block" %></div>
                 </div><!-- /item -->
                 <div class="item">
-                    <div data-target="#carousel" data-slide-to="4" class="thumb"><%= image_tag "salle-de-eau.png", alt: "alttext", class: "d-block" %></div>
-                    <div data-target="#carousel" data-slide-to="5" class="thumb"><%= image_tag "chambre.png", alt: "alttext", class: "d-block" %></div>
-                    <div data-target="#carousel" data-slide-to="6" class="thumb"><%= image_tag "salon.png", alt: "alttext", class: "d-block" %></div>
-                    <div data-target="#carousel" data-slide-to="7" class="thumb"><%= image_tag "sejour.png", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="4" class="thumb"><%= image_tag "sss.jpg", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="5" class="thumb"><%= image_tag "lll.jpg", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="6" class="thumb"><%= image_tag "ppp.jpg", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="7" class="thumb"><%= image_tag "ooo.jpg", alt: "alttext", class: "d-block" %></div>
                 </div><!-- /item -->
                 <div class="item">
-                    <div data-target="#carousel" data-slide-to="8" class="thumb"><%= image_tag "bar.png", alt: "alttext", class: "d-block" %></div>
-                    <div data-target="#carousel" data-slide-to="9" class="thumb"><%= image_tag "kitchen-bar.png", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="8" class="thumb"><%= image_tag "kkk.jpg", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="9" class="thumb"><%= image_tag "jjj.jpg", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="8" class="thumb"><%= image_tag "ttt.jpg", alt: "alttext", class: "d-block" %></div>
+                    <div data-target="#carousel" data-slide-to="9" class="thumb"><%= image_tag "vvv.jpg", alt: "alttext", class: "d-block" %></div>
                 </div><!-- /item -->
             </div><!-- /carousel-inner -->
             <a class="left carousel-control" href="#thumbcarousel" role="button" data-slide="prev">
@@ -75,4 +94,4 @@
     </div><!-- /clearfix -->
     </div> <!-- /col-sm-6 -->
   </div> <!-- /row -->
-
+</div>

@@ -1,6 +1,19 @@
 .carousel {
     margin-top: 20px;
 }
+
+.carousel-control.left {
+  background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%) !important;
+}
+
+.carousel-control.right {
+  background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%) !important;
+}
+
+.carousel-control {
+  opacity: 1 !important;
+}
+
 .item .thumb {
   width: 25%;
   cursor: pointer;

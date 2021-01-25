@@ -17,18 +17,19 @@ body, html {
   margin: auto;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .container-c {
     width: 450px;
     margin-left: 70px;
   }
 }
 
-@media (max-width: 600px) {
-  .cont {
-    width: 570px;
+@media (min-width: 640px) {
+  #cont {
+    width: 320px;
   }
 }
+
 
 #navnav {
   max-width: 1240px;

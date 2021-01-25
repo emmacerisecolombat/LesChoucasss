@@ -17,12 +17,9 @@
   width: 500px;
 }
 
-// #p3 {
-//   position: relative;
-//   top: 200px;
-// }
-
-// #img-p3 {
-//   position: relative;
-//   top: 20px;
-// }
+@media screen and (max-width: 415px) {
+  #page3-C .text-presentation {
+    width: 100%;
+    margin-right: -24px !important;
+  }
+}

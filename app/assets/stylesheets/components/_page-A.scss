@@ -64,8 +64,16 @@
   object-fit: scale-down;
 }
 
-#page2-A .text-presentation {
-  width: 40%;
+@media (min-width: 650px) {
+  #page2-A .text-presentation {
+    width: 40%;
+  }
+}
+
+@media (max-width: 640px) {
+  #page2-A .text-presentation {
+    font-size: 16px;
+  }
 }
 
 #page2-A .text-presentation strong {
@@ -77,13 +85,7 @@
   width: 500px;
 }
 
-@media screen and (max-width: 415px) {
-  #page2-A .text-presentation {
-    width: 100%;
-  }
-}
-
-@media (max-width: 380px) {
+@media (max-width: 650px) {
   #page2-A .exterieur {
     width: 90%;
     margin: auto;

@@ -17,6 +17,32 @@
 width: 600px;
 }
 
+@media screen and (max-width: 415px) {
+  #page2-B .text-presentation {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  #descri-mob {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 420px) {
+  #descri-mob2 {
+    display: none;
+  }
+}
+
+@media (max-width: 415px) {
+  #page2-B .tiny {
+    width: 90%;
+    margin: auto;
+  }
+}
+
 // #p2 {
 //   position: relative;
 //   top: 200px;

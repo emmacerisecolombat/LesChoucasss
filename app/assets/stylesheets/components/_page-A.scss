@@ -76,3 +76,16 @@
 #page2-A .exterieur {
   width: 500px;
 }
+
+@media screen and (max-width: 415px) {
+  #page2-A .text-presentation {
+    width: 100%;
+  }
+}
+
+@media (max-width: 380px) {
+  #page2-A .exterieur {
+    width: 90%;
+    margin: auto;
+  }
+}

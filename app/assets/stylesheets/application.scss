@@ -17,27 +17,28 @@ body, html {
   margin: auto;
 }
 
+@media (max-width: 600px) {
+  .container-c {
+    width: 450px;
+    margin-left: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cont {
+    width: 570px;
+  }
+}
+
 #navnav {
   max-width: 1240px;
   margin: auto;
 }
 
-.carousel-inner .carousel-item img{
-  min-height : 300px;
-  height : 700px;
-  width : 1150px;
-}
-
-#carousel-img {
-  position: relative;
-  left: 500px;
-}
-
-#text-carousel {
-  color: black;
-  position: relative;
-  bottom: 500px;
-  left:15
+@media (max-width: 600px) {
+  #img {
+    width: 100vh !important;
+  }
 }
 
 #h1 {
@@ -57,14 +58,34 @@ h1 {
   color: black;
 }
 
+@media (max-width: 415px) {
+  h1 {
+    font-size: 46px !important;
+    color: black;
+    margin: auto;
+  }
+}
+
 h2 {
   font-size: 40px !important;
   color: black;
 }
 
+@media (max-width: 415px) {
+  h2 {
+    font-size: 30px !important;
+  }
+}
+
 h3 {
   font-size: 22px !important;
   color: #9B9B9B;
+}
+
+@media (max-width: 415px) {
+  h3 {
+    font-size: 16px !important;
+  }
 }
 
 h5 {
@@ -97,6 +118,15 @@ p {
   font-family: 'Antic Didone', serif;
   font-size: 22px !important;
   color: black;
+}
+
+@media (max-width: 415px) {
+  p {
+    font-size: 12px !important;
+    strong {
+      font-size: 12px !important;
+    }
+  }
 }
 
 li {
